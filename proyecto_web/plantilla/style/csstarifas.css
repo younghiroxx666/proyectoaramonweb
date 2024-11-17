@@ -1,0 +1,75 @@
+/* Archivo: styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.tabla-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table.tarifas {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+}
+
+table.tarifas thead {
+  background-color: #99ccff;
+}
+
+table.tarifas th {
+  padding: 10px;
+  font-weight: bold;
+  color: #000;
+  border: 1px solid #999;
+}
+
+table.tarifas td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Colores de las filas según la estación */
+.cerler td {
+  background-color: #d1ffd1;
+}
+
+.formigal td {
+  background-color: #ffe4b2;
+}
+
+.panticosa td {
+  background-color: #d1d1ff;
+}
+
+.valdelinares td {
+  background-color: #ffcccc;
+}
+
+.javalambre td {
+  background-color: #ffe6cc;
+}
+
+/* Pie de tabla */
+table.tarifas tfoot td {
+  background-color: #cccccc;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #999;
+}

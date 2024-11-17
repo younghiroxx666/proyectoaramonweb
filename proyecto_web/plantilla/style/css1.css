@@ -1,0 +1,90 @@
+body {
+    font: 14px Arial, Tahoma, Verdana, sans-serif;
+    background-image: url(../imagenes/istockphoto-584574568-612x612\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header */
+#header {
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+}
+
+/* Middle */
+#middle {
+    width: 100%;
+    overflow: visible; 
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+/* Contenedor central que contiene las dos columnas */
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+    margin-bottom: 20px; /* Separación de la imagen */
+}
+
+/* Columnas */
+.left-column, .right-column {
+    width: 48%;
+}
+
+/* Imagen debajo de las columnas */
+#middle img {
+    display: block;
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+#footer {
+    height: 100px;
+}
+
+/* Botones de Redes Sociales */
+.botones {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.botones button {
+    background-color: #fff;
+    border: 2px solid #003366;
+    border-radius: 50%;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+.botones button i {
+    color: #003366;
+    font-size: 2rem;
+}
+
+.botones button:hover i {
+    color: #00b7ff;
+}

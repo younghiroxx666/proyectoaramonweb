@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería</title>
+  <link rel="stylesheet" href="./style/cssimagenes.css">
+  <link rel="stylesheet" href="./style/css2.css">
+</head>
+<link rel="icon" type="image/x-icon" href="./imagenes/logo.png" />
+<!-- Script para los menús -->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+<div id="wrapper">
+  
+  <!-- Header principal -->
+  <header id="header">
+    <img id="logo" src="imagenes/logo.png" alt="Logo Aramon" />
+  </header>
+  
+  <!-- MENU -->
+  <nav id="menu">
+    <input type="checkbox" id="responsive-menu" onclick="updatemenu()" />
+    <label></label>
+    <ul>
+      <li><a href="./index.html">Inicio</a></li>
+      <li>
+        <a class="dropdown-arrow" href="#">Información</a>
+        <ul class="sub-menus">
+          <li><a href="./cerler.html.html">Cerler</a></li>
+          <li><a href="./formigalpanticosa.html.html">Formigal-Panticosa</a></li>
+          <li><a href="./javalambre.html.html">Javalambre</a></li>
+          <li><a href="./valdelinares.html.html">Valdelinares</a></li>
+        </ul>
+        <li><a class='dropdown-arrow' href='http://'>Galería</a>
+            <ul class='sub-menus'>
+              <li><a href='./imagenes.html'>Imágenes</a></li>
+              <li><a href='./videos.html'>Vídeos</a></li>
+            </ul>
+      <li><a href="./tarifas.html">Tarifas</a></li>
+      <li><a href="./formulario.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+<body>
+  <div class="galeria-container">
+    <h1>Galería de Imágenes</h1>
+    <li><a class='dropdown-arrow' href='http://'>Imagenes</a>
+        <ul class='sub-menus'>
+        </ul>
+    <div class="galeria">
+      <img src="./imagenes/DSC0306-1-scaled.jpg" alt="Imagen 1">
+      <img src="./imagenes/app-aramon-1.jpg" alt="Imagen 2">
+      <img src="./imagenes/Slider-Aramon-06102023.jpg" alt="Imagen 3">
+      <img src="./imagenes/Valdelinares-Teruel-1.jpg" alt="Imagen 4">
+    </div>
+  </div>
+</body>
+
+          <!-- Botón debajo de todo el contenido -->
+          
+            
+      
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="botones">
+          <button>
+            <a href="http://www.facebook.com/grupoaramon/?locale=es_ES" target="_blank">
+            <i class="fa-brands fa-facebook fa-3x"></i>
+            </a>
+          </button>
+          <button>
+            <a href="http://twitter.com/grupoaramon?lang=es" target="_blank">
+            <i class="fa-brands fa-twitter fa-3x"></i>
+            </a>
+          </button>
+          <button>
+            <a href="http://instagram.com/grupoaramon" target="_blank">
+            <i class="fa-brands fa-instagram fa-3x"></i>
+            </a>
+          </button>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>
